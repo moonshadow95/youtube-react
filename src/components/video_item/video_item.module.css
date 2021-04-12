@@ -1,0 +1,49 @@
+.container {
+  margin-bottom: 0.2em;
+  cursor: pointer;
+  width: 50%;
+  padding: 0.1em;
+}
+
+.video {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  border: 1px solid lightgray;
+  transition: all 100ms ease-in;
+  box-shadow: 6px 6px 7px -4px rgba(0, 0, 0, 0.55);
+}
+.video:hover {
+  opacity: 0.8;
+}
+
+.thumbnail {
+  width: 45%;
+  height: 100%;
+}
+
+.metadata {
+  margin-left: 0.5em;
+  font-size: 0.9rem;
+}
+
+.title,
+.channel {
+  margin: 0;
+}
+
+.title {
+  margin-bottom: 0.2em;
+  color: #fffff8;
+}
+
+.channel {
+  font-size: 0.7rem;
+  color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

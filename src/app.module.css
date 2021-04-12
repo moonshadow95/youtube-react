@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+.app {
+  max-width: 80rem;
+  background-color: #181818;
+}
