@@ -48,8 +48,8 @@
   color: #aaaaaa;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
+@media screen and (max-width: 50rem) {
+  .container.grid {
     width: 100%;
   }
 }
