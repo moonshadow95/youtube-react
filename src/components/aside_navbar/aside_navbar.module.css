@@ -1,0 +1,30 @@
+.navbar {
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 0.5rem;
+  width: 5.5rem;
+  height: 5.5rem;
+  color: rgb(161, 161, 161);
+  padding: 0;
+}
+.button:active {
+  color: #fff;
+}
+.button:hover {
+  background-color: rgb(88, 88, 88);
+}
+.button i {
+  font-size: 1.8rem;
+}
+.button span {
+  font-size: 0.5rem;
+}

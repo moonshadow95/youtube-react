@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import styles from './app.module.css';
+import AsideNavbar from './components/aside_navbar/aside_navbar';
 import SearchHeader from './components/search_header/search_header';
 import VideoDetail from './components/video_detail/video_detail';
 import VideoList from './components/video_list/video_list';
@@ -31,7 +32,10 @@ function App({ youtube }) {
   }, [youtube]);
   return (
     <div className={styles.app}>
-      <SearchHeader onSearch={search} />
+      <SearchHeader onHomeClick={youtube.mostPopular()} />
+      <aside>
+        <AsideNavbar onSearch={search} />
+      </aside>
       <section className={styles.content}>
         {selectedVideo && (
           <div className={styles.detail}>

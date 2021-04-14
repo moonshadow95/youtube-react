@@ -8,7 +8,7 @@ const VideoDetail = ({ video, video: { snippet } }) => (
       title="youtube video player"
       type="text/html"
       width="100%"
-      height="500px"
+      height="600px"
       src={`https://www.youtube.com/embed/${video.id}`}
       frameBorder="0"
       allowFullScreen

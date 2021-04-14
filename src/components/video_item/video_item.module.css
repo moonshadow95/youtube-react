@@ -1,11 +1,10 @@
 .container {
   margin-bottom: 0.2em;
   cursor: pointer;
-  width: 50%;
   padding: 0.1em;
 }
 .container.grid {
-  width: 50%;
+  width: 25%;
 }
 .container.list {
   width: 100%;
@@ -13,24 +12,27 @@
 
 .video {
   display: flex;
+  flex-direction: column;
   list-style: none;
-  align-items: center;
   border: 1px solid lightgray;
   transition: all 100ms ease-in;
   box-shadow: 6px 6px 7px -4px rgba(0, 0, 0, 0.55);
+  margin: 0.2em;
+  height: 100%;
 }
 .video:hover {
   opacity: 0.8;
 }
 
 .thumbnail {
-  width: 45%;
+  width: 100%;
   height: 100%;
 }
 
 .metadata {
-  margin-left: 0.5em;
   font-size: 0.9rem;
+  padding: 1rem 0;
+  margin-left: 1em;
 }
 
 .title,
@@ -41,11 +43,25 @@
 .title {
   margin-bottom: 0.2em;
   color: #fffff8;
+  height: 3em;
+  overflow: hidden;
 }
 
 .channel {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #aaaaaa;
+}
+
+@media screen and (max-width: 80rem) {
+  .container.grid {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 65rem) {
+  .container.grid {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 50rem) {
