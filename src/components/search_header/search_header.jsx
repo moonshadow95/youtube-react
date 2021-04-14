@@ -16,7 +16,6 @@ const SearchHeader = memo(({ onSearch }) => {
     if (event.key === 'Enter') {
       handleSearch();
     }
-    console.log('Header');
   };
 
   return (
