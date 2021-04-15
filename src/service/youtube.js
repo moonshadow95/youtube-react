@@ -23,8 +23,10 @@ class Youtube {
         q: query,
       },
     });
-    const result = await response.json();
-    return result.items.map((item) => ({ ...item, id: item.id.videoId }));
+    return response.data.items.map((item) => ({
+      ...item,
+      id: item.id.videoId,
+    }));
   }
 }
 

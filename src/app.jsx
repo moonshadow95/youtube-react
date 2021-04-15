@@ -18,9 +18,7 @@ function App({ youtube }) {
       setSelectedVideo(null);
       youtube
         .search(query) //
-        .then((videos) => {
-          setVideos(videos);
-        });
+        .then((videos) => setVideos(videos));
     },
     [youtube]
   );
@@ -32,9 +30,9 @@ function App({ youtube }) {
   }, [youtube]);
   return (
     <div className={styles.app}>
-      <SearchHeader onHomeClick={youtube.mostPopular()} />
+      <SearchHeader onSearch={search} />
       <aside>
-        <AsideNavbar onSearch={search} />
+        <AsideNavbar onHomeClick={search} />
       </aside>
       <section className={styles.content}>
         {selectedVideo && (

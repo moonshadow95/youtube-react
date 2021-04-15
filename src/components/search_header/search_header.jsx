@@ -6,6 +6,7 @@ const SearchHeader = memo(({ onSearch }) => {
   const handleSearch = () => {
     const value = inputRef.current.value;
     onSearch(value);
+    inputRef.current.value = '';
   };
 
   const onClick = () => {
@@ -21,7 +22,7 @@ const SearchHeader = memo(({ onSearch }) => {
   return (
     <header className={styles.header}>
       <button className={styles.guide}>
-        <i class="fas fa-bars"></i>
+        <i className="fas fa-bars"></i>
       </button>
       <div className={styles.logo}>
         <button className={styles.icon}>
