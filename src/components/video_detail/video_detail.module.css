@@ -4,6 +4,10 @@
   color: #fff;
 }
 
+.video {
+  margin-top: 1.5em;
+}
+
 .description {
   white-space: pre-wrap;
 }

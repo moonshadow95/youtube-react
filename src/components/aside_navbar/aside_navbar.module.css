@@ -22,9 +22,7 @@
 .button:hover {
   background-color: rgb(88, 88, 88);
 }
-.button i {
-  font-size: 1.8rem;
-}
+
 .button span {
   font-size: 0.5rem;
 }

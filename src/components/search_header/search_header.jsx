@@ -9,6 +9,11 @@ const SearchHeader = memo(({ onSearch }) => {
     inputRef.current.value = '';
   };
 
+  const onHomeClick = () => {
+    inputRef.current.value = '';
+    onSearch();
+  };
+
   const onClick = () => {
     handleSearch();
   };
@@ -25,7 +30,7 @@ const SearchHeader = memo(({ onSearch }) => {
         <i className="fas fa-bars"></i>
       </button>
       <div className={styles.logo}>
-        <button className={styles.icon}>
+        <button className={styles.icon} onClick={onHomeClick}>
           <i className="fab fa-youtube"></i>
         </button>
         <h1 className={styles.title}>YouTube</h1>
@@ -40,6 +45,24 @@ const SearchHeader = memo(({ onSearch }) => {
       <button className={styles.button} type="submit" onClick={onClick}>
         <i className={`fas fa-search ${styles.search}`}></i>
       </button>
+      <div className={styles.menu}>
+        <div>
+          <i className="fas fa-video fa-lg"></i>
+          <span className={styles.description}>Make Video</span>
+        </div>
+        <div>
+          <i className="fas fa-th fa-lg"></i>
+          <span className={styles.description}>YouTube App</span>
+        </div>
+        <div>
+          <i className="fas fa-bell fa-lg"></i>
+          <span className={styles.description}>Notice</span>
+        </div>
+        <div>
+          <i className="fas fa-user-circle fa-lg"></i>
+          <span className={styles.description}>Account</span>
+        </div>
+      </div>
     </header>
   );
 });
