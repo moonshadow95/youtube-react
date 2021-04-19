@@ -36,6 +36,10 @@
   margin-left: 1em;
 }
 
+.video.row .thumbnail {
+  width: 50%;
+}
+
 .title,
 .channel {
   margin: 0;
