@@ -9,7 +9,6 @@ _Clone coding project with Youtube API and React_
 
 ## 🔗 Index
 
----
 
 1. [Purpose of this project](#1.-Purpose-of-this-project)
 2. [Tech Stack](#2.-Tech-Stack)
@@ -21,7 +20,6 @@ _Clone coding project with Youtube API and React_
 
 ## 1. Purpose of this project
 
----
 
 - Use what I've learned in To-do list
 - Implementing app using react
@@ -29,7 +27,6 @@ _Clone coding project with Youtube API and React_
 
 ## 2. Tech Stack
 
----
 
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
@@ -39,7 +36,6 @@ _Clone coding project with Youtube API and React_
 
 ## 3. Over View
 
----
 
 <img width="55%" src="https://user-images.githubusercontent.com/73153617/115197854-6c261480-a12c-11eb-9b0a-d4809cb279db.png">
 <img width="25%" src="https://user-images.githubusercontent.com/73153617/115197860-6defd800-a12c-11eb-8c69-a48102eb9b9f.png">
@@ -47,7 +43,6 @@ _Clone coding project with Youtube API and React_
 
 ## 4. About Project
 
----
 
 Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow95.github.io/youtube-react/)
 
@@ -77,7 +72,6 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ## 5. Architecture
 
----
 
 ### 👑 Most popular videos (default page)
 
@@ -87,7 +81,6 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
     2. Send props to video list component, video item component.
     3. Render video items in video list.
 
----
 
 ### 🔎 Search by keyword
 
@@ -98,7 +91,6 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
     3. Get the corresponding videos.
     4. Update and render video list and item.
 
----
 
 ### 📺 Play video
 
@@ -111,7 +103,6 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ## 6. 📝 What I've learned
 
----
 
     - Understanding 'state' and 'props' of react
     - How to use React Hooks
@@ -120,7 +111,6 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ## 7. 💥 Issue
 
----
 
     I wanted to include channel information in each video item, but there was an issu with over quota.
         => Sometimes I have to make the function simpler for the performence.
