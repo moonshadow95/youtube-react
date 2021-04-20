@@ -24,13 +24,11 @@ _Clone coding project with Youtube API and React_
 
 ## 2. Tech Stack
 
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
 
 ## 3. Over View
 
-<img width="53%" src="https://user-images.githubusercontent.com/73153617/115197854-6c261480-a12c-11eb-9b0a-d4809cb279db.png">
-<img width="22%" src="https://user-images.githubusercontent.com/73153617/115197860-6defd800-a12c-11eb-8c69-a48102eb9b9f.png">
-<img width="14%" src="https://user-images.githubusercontent.com/73153617/115197846-6a5c5100-a12c-11eb-90ae-5327828993dc.png">
+<img width="53%" src="https://user-images.githubusercontent.com/73153617/115197854-6c261480-a12c-11eb-9b0a-d4809cb279db.png"> <img width="22%" src="https://user-images.githubusercontent.com/73153617/115197860-6defd800-a12c-11eb-8c69-a48102eb9b9f.png"> <img width="14%" src="https://user-images.githubusercontent.com/73153617/115197846-6a5c5100-a12c-11eb-90ae-5327828993dc.png">
 
 ## 4. About Project
 
@@ -52,7 +50,7 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ### 📺 Detail Page
 
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115191357-47c63a00-a124-11eb-95f5-ce44f9fb3670.PNG"/><img width="49%" src="https://user-images.githubusercontent.com/73153617/115191363-48f76700-a124-11eb-80d0-3eb92bd9e820.PNG">
+<img width="49%" src="https://user-images.githubusercontent.com/73153617/115191357-47c63a00-a124-11eb-95f5-ce44f9fb3670.PNG"/> <img width="49%" src="https://user-images.githubusercontent.com/73153617/115191363-48f76700-a124-11eb-80d0-3eb92bd9e820.PNG">
 
     - Click on a video in the list, Show that video and metadata.
     - Responsive designed video and list.
