@@ -14,7 +14,7 @@ _Clone coding project with Youtube API and React_
 4. [About Project](#4-about-project)
 5. [Architecture](#5-architecture)
 6. [What I've learned](#6--what-ive-learned)
-7. [Issue](#7-issue)
+7. [Issue](#7--issue)
 
 ## 1. Purpose of this project
 
