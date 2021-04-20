@@ -24,11 +24,7 @@ _Clone coding project with Youtube API and React_
 
 ## 2. Tech Stack
 
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
-<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-<img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img alt="React" src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=red" />
 
 ## 3. Over View
 
@@ -42,10 +38,8 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ### 👑 Home Page
 
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115197991-8cee6a00-a12c-11eb-980a-1b21e7e26b1a.png">
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115199964-b5776380-a12e-11eb-8d85-2c1c4b6fc113.png">
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115199970-b7412700-a12e-11eb-926c-6685e7e30743.png">
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115199976-b8725400-a12e-11eb-9662-22a69e5c033a.png">
+<img width="49%" src="https://user-images.githubusercontent.com/73153617/115197991-8cee6a00-a12c-11eb-980a-1b21e7e26b1a.png"><img width="49%" src="https://user-images.githubusercontent.com/73153617/115199964-b5776380-a12e-11eb-8d85-2c1c4b6fc113.png">
+<img width="49%" src="https://user-images.githubusercontent.com/73153617/115199970-b7412700-a12e-11eb-926c-6685e7e30743.png"><img width="49%" src="https://user-images.githubusercontent.com/73153617/115199976-b8725400-a12e-11eb-9662-22a69e5c033a.png">
 
     - Receive data from the YouTube API to show the title and channel name of the most popular video.
     - Adjust the number of videos displayed in a single row as client's window size.
@@ -58,8 +52,7 @@ Demo Link ⇒ [https://moonshadow95.github.io/youtube-react/](https://moonshadow
 
 ### 📺 Detail Page
 
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115191357-47c63a00-a124-11eb-95f5-ce44f9fb3670.PNG"/>
-<img width="49%" src="https://user-images.githubusercontent.com/73153617/115191363-48f76700-a124-11eb-80d0-3eb92bd9e820.PNG">
+<img width="49%" src="https://user-images.githubusercontent.com/73153617/115191357-47c63a00-a124-11eb-95f5-ce44f9fb3670.PNG"/><img width="49%" src="https://user-images.githubusercontent.com/73153617/115191363-48f76700-a124-11eb-80d0-3eb92bd9e820.PNG">
 
     - Click on a video in the list, Show that video and metadata.
     - Responsive designed video and list.
