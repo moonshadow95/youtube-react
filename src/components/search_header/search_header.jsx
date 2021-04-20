@@ -1,17 +1,19 @@
 import React, { memo, useRef } from 'react';
 import styles from './search_header.module.css';
 
-const SearchHeader = memo(({ onSearch }) => {
+const SearchHeader = memo(({ onSearch, mostPopular }) => {
   const inputRef = useRef();
   const handleSearch = () => {
     const value = inputRef.current.value;
-    onSearch(value);
-    inputRef.current.value = '';
+    if (value !== '') {
+      onSearch(value);
+    } else {
+      mostPopular();
+    }
   };
 
   const onHomeClick = () => {
-    inputRef.current.value = '';
-    onSearch();
+    handleSearch();
   };
 
   const onClick = () => {

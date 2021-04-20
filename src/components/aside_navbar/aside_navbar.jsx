@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './aside_navbar.module.css';
 
-const AsideNavbar = ({ onHomeClick }) => {
+const AsideNavbar = ({ mostPopular }) => {
   const onClick = () => {
-    onHomeClick('');
+    mostPopular();
   };
 
   return (

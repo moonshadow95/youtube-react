@@ -15,13 +15,20 @@ function App({ youtube }) {
 
   const search = useCallback(
     (query) => {
-      setSelectedVideo(null);
       youtube
         .search(query) //
         .then((videos) => setVideos(videos));
+      setSelectedVideo(null);
     },
     [youtube]
   );
+
+  const mostPopular = () => {
+    youtube
+      .mostPopular() //
+      .then((videos) => setVideos(videos));
+    setSelectedVideo(null);
+  };
 
   useEffect(() => {
     youtube
@@ -31,9 +38,9 @@ function App({ youtube }) {
 
   return (
     <div className={styles.app}>
-      <SearchHeader onSearch={search} />
+      <SearchHeader onSearch={search} mostPopular={mostPopular} />
       <aside>
-        <AsideNavbar onHomeClick={search} />
+        <AsideNavbar mostPopular={mostPopular} />
       </aside>
       <section className={styles.content}>
         {selectedVideo && (
