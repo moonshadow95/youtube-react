@@ -8,13 +8,13 @@ _Clone coding project with Youtube API and React_
 
 ## 🔗 Index
 
-1. [Purpose of this project](##1.-Purpose-of-this-project)
-2. [Tech Stack](##2.-Tech-Stack)
-3. [Over View](##3.-Over-View)
-4. [About Project](##4.-About-Project)
-5. [Architecture](##5.-Architecture)
-6. [What I've learned](##6.-What-I've-learned)
-7. [Issue](##7.-Issue)
+1. [Purpose of this project](#1.-purpose-of-this-project)
+2. [Tech Stack](#2.-tech-stack)
+3. [Over View](#3.-over-view)
+4. [About Project](#4.-about-project)
+5. [Architecture](#5.-architecture)
+6. [What I've learned](#6.-what-i've-learned)
+7. [Issue](#7.-issue)
 
 ## 1. Purpose of this project
 
